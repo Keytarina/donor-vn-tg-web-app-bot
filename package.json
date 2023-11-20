@@ -2,6 +2,7 @@
   "name": "donor-vn-tg-web-app-bot",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://keytarina.github.io/donor-vn-tg-web-app-bot/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
