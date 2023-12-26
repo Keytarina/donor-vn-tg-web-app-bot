@@ -1,8 +1,8 @@
 import React from "react";
 import Button from "../Button/Button";
-import "./ProductItem.css";
+import "./ArticlesItem.css";
 
-const ProductItem = ({ product, className, onAdd }) => {
+const ArticlesItem = ({ product, className, onAdd }) => {
 	const onAddHandler = () => {
 		onAdd(product);
 	};
@@ -17,11 +17,8 @@ const ProductItem = ({ product, className, onAdd }) => {
 					Стоимость: <b>{product.price}</b>
 				</span>
 			</div>
-			<Button className={"add-btn"} onClick={onAddHandler}>
-				Добавить в корзину
-			</Button>
 		</div>
 	);
 };
 
-export default ProductItem;
+export default ArticlesItem;
