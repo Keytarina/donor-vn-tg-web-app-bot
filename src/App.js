@@ -2,7 +2,7 @@ import "./App.css";
 import { useEffect } from "react";
 import { useTelegram } from "./hooks/useTelegram";
 import Header from "./components/Header/Header";
-import { Route, Routes } from "react-router-dom";
+// import { Route, Routes } from "react-router-dom";
 
 function App() {
 	const { onToggleButton, tg } = useTelegram();
@@ -12,9 +12,9 @@ function App() {
 	}, []);
 
 	return (
-		<div className="App">
+		<div>
 			<Header />
-			{/* <h1>
+			<h1>
 				Як підготуватися до донації крові: харчування та інші важливі аспекти
 			</h1>
 			<p>
@@ -57,7 +57,7 @@ function App() {
 				кавування варто також протягом 12 годин після донації, так як кофеїн має
 				сечогінний ефект, а для донора важливо підтримувати достатню кількість
 				рідини в організмі, аби швидше та якісніше відновити кров.
-			</p> */}
+			</p>
 		</div>
 	);
 }
