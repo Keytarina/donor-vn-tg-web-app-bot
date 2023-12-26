@@ -13,7 +13,7 @@ function App() {
 
 	return (
 		<div className="App">
-			<Header />
+			{/* <Header /> */}
 			<h1>
 				Як підготуватися до донації крові: харчування та інші важливі аспекти
 			</h1>
